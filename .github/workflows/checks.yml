@@ -1,0 +1,37 @@
+name: Checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.9.5"
+          enable-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Python dependencies
+        run: uv sync --frozen --python 3.12
+      - name: Fetch pinned native-test dependencies
+        run: |
+          mkdir -p .work "$HOME/Documents/Arduino/libraries"
+          git clone --quiet --filter=blob:none --no-checkout https://github.com/SolderedElectronics/Inkplate-Arduino-library.git .work/inkplate-library
+          git -C .work/inkplate-library sparse-checkout init --cone
+          git -C .work/inkplate-library sparse-checkout set src
+          git -C .work/inkplate-library checkout --detach 3c15d3275bb3b5c0d4b0ea8d79d87a8380a94554
+          git clone --quiet --branch v7.4.3 --depth 1 https://github.com/bblanchon/ArduinoJson.git "$HOME/Documents/Arduino/libraries/ArduinoJson"
+      - name: Python and native checks
+        run: uv run pytest -q
+      - name: Python lint
+        run: uv run ruff check enki_core --select F,E9
+      - name: Browser state checks
+        run: node --test tests/js/state.test.mjs

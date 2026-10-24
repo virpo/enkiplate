@@ -1,0 +1,130 @@
+{
+  "tool": "built-in image_gen",
+  "reference": ".work/paper-concepts/tape-back.png",
+  "variants": [
+    {
+      "id": "cotton",
+      "name": "01 · Cotton & black",
+      "note": "Soft cotton paper. Slim, matte black tape.",
+      "material": "Thick white cotton rag paper with natural irregular deckled edges and soft fine exposed paper fibres. Two narrow matte jet-black washi strips, each crossing its corner diagonally at 45 degrees. Soft airy handmade paper, elegant and very restrained."
+    },
+    {
+      "id": "kozo",
+      "name": "02 · Kōzo fibres",
+      "note": "Fine mulberry fibres. Translucent charcoal washi.",
+      "material": "Thin white Japanese kozo mulberry paper, with sparse long silky fibres visible only near the feathered torn edges. Two short translucent charcoal washi strips applied at shallow 20-degree diagonals. The edge of the white paper can be faintly seen through the tape."
+    },
+    {
+      "id": "wide",
+      "name": "03 · Wide washi",
+      "note": "Dense white stock. Broad, hand-torn tape.",
+      "material": "Dense smooth bright-white heavyweight stationery paper with a softly torn lower edge. Two unusually broad black washi pieces with convincingly hand-ripped ends, each set at 45 degrees over its corner. Graphic and tactile, real paper tape with subtle surface wrinkles, no glossy reflections."
+    },
+    {
+      "id": "tissue",
+      "name": "04 · Airy paper",
+      "note": "Feathered tissue edges. Soft gray washi.",
+      "material": "Airy thin white Japanese tissue paper with wispy feathered edges, very slight translucency near the perimeter and a clean white opaque centre. Two light smoky-gray semi-transparent washi strips diagonally crossing the specified corners. Fine fibres and delicate natural shadows, no dark paper surface."
+    },
+    {
+      "id": "torn",
+      "name": "05 · Hand torn",
+      "note": "A rougher tear. Short black tape pieces.",
+      "material": "White uncoated handmade paper with an asymmetric real hand-torn perimeter, especially at the bottom, exposed little paper fibres, not a uniform sawtooth outline. Two short chunky black Japanese washi pieces over the specified corners, about 30 degrees, with strongly frayed torn ends and subtle matte grain."
+    },
+    {
+      "id": "layered",
+      "name": "06 · Two sheets",
+      "note": "Two paper layers. Narrow charcoal tape.",
+      "material": "Two very thin white Japanese paper sheets stacked with a tiny offset of 1 percent of the canvas; the top one is clean and blank, under-sheet visible only as a fine white secondary edge at lower left. Two narrow charcoal washi strips at the top-left and bottom-right corners, both diagonal, attaching both layers."
+    },
+    {
+      "id": "lifted",
+      "name": "07 · Lifted edge",
+      "note": "A slight curl gives the paper depth.",
+      "material": "White cotton paper held flat at top left and bottom right with two slim black washi strips crossing those corners diagonally. The UNTAPED lower-left paper edge has a tiny natural upward curl revealing the white paper thickness and a local soft shadow; no dramatic roll or large fold. The central writing area stays perfectly flat and white."
+    },
+    {
+      "id": "pressed",
+      "name": "08 · Pressed paper",
+      "note": "A thick, soft edge. Gently wrinkled tape.",
+      "material": "Thick white printmaking paper with a visible soft compressed edge and subtle tooth near its perimeter. Two black washi tape pieces lie at shallow 12-degree angles across the top-left and bottom-right corners, tiny realistic adhesive wrinkles, broad horizontal material gesture. White blank centre, restrained fine shadows."
+    },
+    {
+      "id": "translucent",
+      "name": "09 · Translucent black",
+      "note": "Fine paper. The corners show through the tape.",
+      "material": "Fine smooth bright white washi paper with very natural irregular cut-and-torn edges. Two semi-transparent deep charcoal-black washi strips applied diagonally to top-left and bottom-right corners; the paper edge underneath is realistically visible through them. Very subtle fibres in the tape and a slight hand-pressed wrinkle, soft photographic depth."
+    },
+    {
+      "id": "pattern",
+      "name": "10 · Wave washi",
+      "note": "White paper. Bold seigaiha tape.",
+      "material": "Bright white cotton paper with elegant naturally deckled edges. Two matte black washi strips diagonally crossing the top-left and bottom-right corners, printed with a delicate sparse white Japanese seigaiha wave pattern. The wave pattern belongs ONLY on the tiny tape pieces. Pattern must be crisp and restrained, no decoration anywhere else."
+    }
+  ],
+  "source_images": [
+    {
+      "id": "cotton",
+      "original": "exec-49ce4f90-5cfd-4b05-bd19-21037afc611f.png",
+      "final": "exec-63e42ba9-72ee-49d2-af50-ee7d601961d6.png"
+    },
+    {
+      "id": "kozo",
+      "original": "exec-d5ca0921-4625-49f3-a766-66f1ffeb04a7.png",
+      "final": "exec-841bd932-5ae1-4a29-9abe-aa5e80433c59.png"
+    },
+    {
+      "id": "wide",
+      "original": "exec-7715ca2b-ce85-4c3e-acd7-f4c6bed9e028.png",
+      "final": "exec-7f2e76d0-de8e-4b76-9e89-a66712385b35.png"
+    },
+    {
+      "id": "tissue",
+      "original": "exec-cf1cd314-015c-4d71-a939-ae8609ff5ba7.png",
+      "final": "exec-773d7a4d-c914-43a0-912a-a217ca5f27ad.png"
+    },
+    {
+      "id": "torn",
+      "original": "exec-9340c29b-8be5-4477-b4dc-0d0303cfe923.png",
+      "final": "exec-ee6d92a1-09fa-4168-b3eb-df059b2305d4.png"
+    },
+    {
+      "id": "layered",
+      "original": "exec-f12ae4af-fce5-4023-b64a-aa58a89811d2.png",
+      "final": "exec-4732524a-d200-4bc1-a051-dfeb1d94529b.png"
+    },
+    {
+      "id": "lifted",
+      "original": "exec-6ebc565b-d7dc-402f-a1e4-6faf2851c2d1.png",
+      "final": "exec-e11369e7-3810-42ac-8580-68b419e05668.png"
+    },
+    {
+      "id": "pressed",
+      "original": "exec-b0b16fe9-5746-49be-9540-d87e8e44c0db.png",
+      "final": "exec-539561cd-6450-42d6-a883-7b57a7ecf45c.png"
+    },
+    {
+      "id": "translucent",
+      "original": "exec-900454a8-8328-4247-86a2-d1f923eee54e.png",
+      "final": "exec-00633fd4-e558-48e9-8c48-ff1159367c33.png"
+    },
+    {
+      "id": "pattern",
+      "original": "exec-bb3dc62f-5f9e-4903-8e98-f6ee181112cf.png",
+      "final": "exec-4206b065-33e4-412e-ac39-5f40f9316aab.png"
+    }
+  ],
+  "tape_correction": "Keep paper unchanged; replace two long strips with short 8%-by-2% tabs, constrained to top left x3..13%,y22..30% and bottom right x87..97%,y69..77%. Preserve original tape material and pattern.",
+  "generation_prompt": "Use case: product-mockup. Asset type: photorealistic paper-and-washi material plate for a monochrome 600 x 600 e-paper interface. The supplied image is a LAYOUT REFERENCE ONLY. Generate a brand-new BLANK material plate, removing every letter, Japanese glyph, icon, rule and button from the reference. Square flat orthographic overhead view, no perspective, no device frame. Pure white #FFFFFF canvas. ONE horizontal white paper sheet occupies x=5% to 95%, y=24% to 75% of the canvas, with realistic subtle edge shadows. The entire object including tape/shadow stays between y=22% and y=77%. ALL remaining canvas above and below stays pure white. EXACTLY TWO real washi adhesive tape pieces: ONE crossing the TOP LEFT corner of the paper, ONE crossing the BOTTOM RIGHT corner, visibly attached to paper and white backing. No top-centre tape. Tape stays away from central writing area. Paper centre pristine bright white and nearly texture-free for black Japanese lettering added later. Realism from genuine torn fibres, lifted paper thickness, matte adhesive grain and fine soft shadows. No dark gray background. Strict neutral black, white and grayscale. Macro studio product photography. No text, no UI, no logos, no pin, no objects, no border, no wood. VARIATION: ",
+  "correction_prompt_first_six": "Edit this material plate. Keep the white paper, paper fibres, paper shape, paper position, lighting and white canvas exactly as they are. Change ONLY the two washi tape pieces: both are currently too long. Replace each with a VERY SHORT SMALL washi tab, about 8 percent of the total canvas wide and 2 percent thick. This is essential for fitting a small e-paper screen. The entire TOP LEFT tab must fit inside x=3%..13%, y=22%..30% of the canvas, crossing the paper's top-left corner. The entire BOTTOM RIGHT tab must fit inside x=87%..97%, y=69%..77%, crossing the bottom-right corner. Nothing at all, including tape and shadows, may extend above 22% or below 77% of the canvas. Keep the same tape material, texture and grayscale color as the supplied original, retaining real torn adhesive-paper ends. Exactly two small pieces, both diagonal. Do not alter the paper or introduce text, UI, borders, labels or other objects. Orthographic overhead macro realism. Make the two pieces visibly much shorter than the originals.",
+  "final_assets": "enki/assets/objects/washi/{id}-v2.png",
+  "production_asset": "enki/assets/objects/washi/pattern-v3.png",
+  "larger_tape_update": {
+    "tool": "built-in image_gen",
+    "request": "Make the washi tapes bigger and more pronounced.",
+    "initial_prompt": "Edit this exact paper-and-washi material plate. Keep the white paper, torn fibre edges, lighting, paper position, white background and central blank area unchanged. Change ONLY the two black seigaiha wave-patterned washi tape pieces. They are too small and disappear at e-paper size. Make BOTH tapes roughly TWICE THE VISIBLE AREA of the originals, longer and visibly wider, with bold deep matte-black paper and clean prominent white wave motifs. Use a steeper diagonal, about 65 to 75 degrees to the horizontal, so the tape extends down/up the outside paper edges while keeping away from the writing. TOP LEFT tape must be completely within x=1%..11%, y=22%..39% of the full square canvas, covering the paper's upper-left corner and left edge. BOTTOM RIGHT tape must be completely within x=89%..99%, y=61%..77%, covering the paper's lower-right corner and right edge. These coordinate limits are essential: there must be no tape or shadow in the central safe writing rectangle x=11.5%..88.5%, y=26.7%..72.2%, no tape above y=21.5% or below y=78%. Each tape should have a substantial, clear silhouette roughly 60x100 pixels when the full canvas is displayed at 600x600. Exactly TWO tape pieces, top left and bottom right. Realistic hand-torn ends, matte adhesive texture and subtle shadows, but high black-white contrast and a legible wave print. Do not add any text, UI, device frame, border, pin or other object. Strict grayscale, flat orthographic overhead photography.",
+    "placement_guide_prompt": "Image 1 is the EDIT TARGET, a realistic paper plate with larger black seigaiha washi. Image 2 is a POSITION GUIDE ONLY, not an image to copy into the final. Keep the paper texture, shape, fibres, lighting and blank white background of Image 1 unchanged. Reposition and reshape the TWO washi pieces so each EXACTLY occupies the corresponding BLUE polygon in Image 2. Preserve the size/prominence of those substantial blue strips, replacing their blue fill with realistic matte BLACK hand-torn washi printed with bold WHITE seigaiha wave motifs. Their long axes are almost vertical, slightly tilted, as shown in the guide, one top left and one bottom right. Do NOT expand the washi beyond the blue silhouettes. In particular, ALL of the top-left tape must stay left of the red rectangle, and ALL of the bottom-right tape must stay right of the red rectangle. Both tapes and their dark shadows must stay inside canvas y=22%..77.5%. Do not copy ANY red lines, guide text, blue color, gray rectangular outline or other guide markings. Do not add text or UI. Final image must be only the same realistic white paper with TWO pronounced BLACK/WHITE wave washi strips in the guide positions, on clean white background. Strictly grayscale, orthographic top down. Keep paper unchanged.",
+    "final_placement_prompt": "Make a very precise placement adjustment to this image. Keep the paper, canvas, lighting, textures, TWO tape sizes, tape shapes and white wave print exactly unchanged. Do NOT enlarge or shrink anything. Move ONLY the top-left washi piece DOWN by 4 percent of the full canvas height (about 50 pixels on this image), keeping its x position unchanged. Move ONLY the bottom-right washi piece UP by 5 percent of the full canvas height (about 63 pixels), and RIGHT by 1.5 percent of canvas width (about 19 pixels), keeping its steep angle and size unchanged. This tucks both full tape silhouettes into the paper display zone instead of clipping them. The whole top-left tape must start BELOW y=22% of the full canvas; the whole bottom-right tape must end ABOVE y=77.5%. The outer right edge must remain inside the image. Keep the central blank writing area completely unobstructed. Nothing else changes. No lettering, UI, guides, borders, new objects or extra tape."
+  }
+}
