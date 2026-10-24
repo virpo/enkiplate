@@ -143,4 +143,6 @@ Original application code, documentation, photograph and material artwork are av
 - [Noto Sans JP, Manrope and IBM Plex Mono](enki/assets/production/README.md): SIL Open Font License 1.1.
 - [Soldered Inkplate library](https://github.com/SolderedElectronics/Inkplate-Arduino-library): LGPL-3.0. Firmware build instructions pin the library source.
 
-An independent project by [Peter Hraska](https://github.com/virpo). Not affiliated with Soldered, Anki or the dictionary publishers.
+An independent project by [Peter Hraska](https://github.com/virpo). More builds: [@virpo on X](https://x.com/virpo).
+
+Not affiliated with Soldered, Anki or the dictionary publishers.
